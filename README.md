@@ -4,7 +4,7 @@ This project used Hypothesis Testing and Visualization to leverage customer's he
 ## Data Description:
 The data at hand contains medical costs of people
 characterized by certain attributes.
-## Domain:Healthcare
+## Domain: Healthcare
 ## Context:
 Leveraging customer information is paramount for most
 businesses. In the case of an insurance company, attributes of
@@ -29,6 +29,3 @@ c. Is the proportion of smokers significantly different
 in different genders?
 d. Is the distribution of bmi across women with no
 children, one child and two children, the same ?
-## References:
-● Applications of Data science in insurance domain
-● Data science in Insurance
