@@ -1,0 +1,19 @@
+Distribution of bmi across women with no children, one child and two children, the same is completed with errors. 
+
+Will try below code 
+ ho = "No. of children has no effect on bmi" # Stating the Null Hypothesis 
+ Ha = "No. of children has an effect on bmi" # Stating the Alternate Hypothesis 
+ female_df = copy.deepcopy(df[df['sex'] == 'female']) 
+ zero = female_df[female_df.children == 0]['bmi'] 
+ one = female_df[female_df.children == 1]['bmi'] 
+ two = female_df[female_df.children == 2]['bmi'] 
+ f_stat, p_value = stats.f_oneway(zero,one,two) 
+ if p_value < 0.05: # Setting our significance level at 5% 
+ print(f'{Ha} as the p_value ({p_value.round(3)}) < 0.05') 
+ else: print(f'{Ho} as the p_value ({p_value.round(3)}) > 0.05') 
+ 
+Things to do 
+ 1 - There is no insights about the dataset & the analysis, will add it soon. 
+ 2 - Have to check the correlation between variables through visualization/functionality. 
+ 3 - Insights on the correlation between dependent and independent variables, 
+ 4 - Explanation / insight about the different models used in data analysis.
