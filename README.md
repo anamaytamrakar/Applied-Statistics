@@ -1,2 +1,3 @@
 # Applied-Statistics
-This repository contains the python code for the different projects to understand applied statistics implementation in Artificial Intelligence and Machine Learning
+# Domain-Health Insurance
+This project used Hypothesis Testing and Visualization to leverage customer's health information like smoking habits, bmi, age, and gender for checking statistical evidence to make valuable decisions of insurance business like charges for health insurance.
